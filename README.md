@@ -1,6 +1,6 @@
 # Quantum-Secured Anomaly Detection System (QSHIELD)
 
-**Tech Stack:** Python · Qiskit · Streamlit · SQLite · Cryptography
+**Tech Stack:** Python · Qiskit · Streamlit
 
 QSHIELD is a security framework that combines **quantum-inspired authentication** with **behavior-based anomaly detection** to protect sensitive systems such as Electronic Health Records (EHRs).
 
@@ -23,3 +23,4 @@ Quantum entropy generated via Hadamard and Rz-based circuits enhances unpredicta
 - QRNG entropy correlation: **0.996**
 - Anomaly scoring time: **~175 ms**
 - Full response cycle: **~9.2 seconds**
+
