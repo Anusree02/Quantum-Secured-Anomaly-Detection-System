@@ -1,0 +1,70 @@
+{
+  "Receptionist": {
+    "allowed_actions": ["read_basic_info", "write_appointment"],
+    "allowed_time": ["08:00-20:00"]
+  },
+  "OPD Doctor": {
+    "allowed_actions": ["read_prescription", "write_prescription", "read_patient_summary"],
+    "allowed_time": ["08:00-20:00"]
+  },
+  "OPD Nurse": {
+    "allowed_actions": ["read_vitals", "write_nursing_notes"],
+    "allowed_time": ["08:00-20:00"]
+  },
+  "Ward Doctor": {
+    "allowed_actions": ["read_treatment_plan", "write_treatment_plan", "admit", "discharge"],
+    "allowed_time": ["00:00-23:59"]
+  },
+  "Duty Manager": {
+    "allowed_actions": ["monitor_logs", "assign_shift", "read_basic_records"],
+    "allowed_time": ["00:00-23:59"]
+  },
+  "Lab Technician": {
+    "allowed_actions": ["write_test_result", "read_test_request"],
+    "allowed_time": ["08:00-18:00"]
+  },
+  "Pathologist": {
+    "allowed_actions": ["read_lab_request", "write_lab_report"],
+    "allowed_time": ["08:00-18:00"]
+  },
+  "Radiologist": {
+    "allowed_actions": ["write_scan_report"],
+    "allowed_time": ["08:00-20:00"]
+  },
+  "Imaging Tech": {
+    "allowed_actions": ["capture_image", "tag_metadata"],
+    "allowed_time": ["08:00-18:00"]
+  },
+  "Pharmacist": {
+    "allowed_actions": ["read_prescription", "dispense_medicine"],
+    "allowed_time": ["08:00-22:00"]
+  },
+  "Finance Officer": {
+    "allowed_actions": ["view_cost", "create_invoice"],
+    "allowed_time": ["08:00-20:00"]
+  },
+  "System Admin": {
+    "allowed_actions": ["create_account", "manage_privileges"],
+    "allowed_time": ["00:00-23:59"]
+  },
+  "Audit Log Monitor": {
+    "allowed_actions": ["view_encrypted_log_metadata"],
+    "allowed_time": ["00:00-23:59"]
+  },
+  "Hospital Admin": {
+    "allowed_actions": ["view_flagged_anomalies", "approve_role_changes"],
+    "allowed_time": ["08:00-22:00"]
+  },
+  "Compliance Officer": {
+    "allowed_actions": ["read_encrypted_logs_with_ciso"],
+    "allowed_time": ["09:00-19:00"]
+  },
+  "CISO": {
+    "allowed_actions": ["decrypt_audit_logs", "manage_qkv"],
+    "allowed_time": ["00:00-23:59"]
+  },
+  "Quantum AI Anomaly Agent": {
+    "allowed_actions": ["auto_detect_abnormal_access", "alert_admins"],
+    "allowed_time": ["00:00-23:59"]
+  }
+}

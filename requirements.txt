@@ -1,0 +1,15 @@
+uvicorn
+fastapi
+python-dotenv
+pydantic
+streamlit
+sqlalchemy
+alembic
+pandas
+pytest
+streamlit
+qiskit==0.45.2
+qiskit-aer==0.12.2
+python-dotenv
+bcrypt
+pandas
